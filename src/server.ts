@@ -25,8 +25,8 @@ app.use("/leitores", leitorRoutes);
 AppDataSource.initialize()
   .then(async () => {
     console.log("Sua conexão com banco de dados está ok");
-    app.listen(3333, () => {
-      console.log("Servidor rodando na porta 3333");
+    app.listen(9000, () => {
+      console.log("Servidor rodando na porta 9000");
     });
   })
   .catch(() => console.log("Erro ao conectar com o banco de dados"));
