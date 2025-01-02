@@ -6,7 +6,7 @@ import {
     UpdateDateColumn,
   } from "typeorm";
   
-  @Entity("auditorio")
+  @Entity("auditorium")
 
 class Auditorio {
     @PrimaryGeneratedColumn()
@@ -34,4 +34,4 @@ class Auditorio {
     updatedAt: Date;
   }
 
-export default Auditorio;
+  export default Auditorio;

@@ -55,7 +55,7 @@ export class AuditoriumsTable1735346718792 implements MigrationInterface {
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable('auditorio')
+        await queryRunner.dropTable('auditorium')
     }
 
 }
