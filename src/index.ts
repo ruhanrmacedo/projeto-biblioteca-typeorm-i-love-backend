@@ -10,8 +10,6 @@ import auditorioRoutes from "./routes/auditorio.routes";
 import autorRoutes from "./routes/autor.routes";
 import leitorRoutes from "./routes/leitor.routes";
 
-import "reflect-metadata"
-
 const app = express();
 
 app.use(cors());
