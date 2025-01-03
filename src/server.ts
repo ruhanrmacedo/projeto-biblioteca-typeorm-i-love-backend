@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import express from "express";
+import express, { Request, Response } from "express";
 import cors from "cors";
 
 import { AppDataSource } from "./database/data-source";
@@ -33,16 +33,6 @@ AppDataSource.initialize()
   })
   .catch(() => console.log("Erro ao conectar com o banco de dados"));
 
-  app.get('/auditorium', async (request, response) => {
-
-    const auditoriumRepository = AppDataSource.getRepository(Auditorio)
-
-    const auditorium = await auditoriumRepository.find()
-    console.log(auditorium)
-
-    response.json(auditorium)
-  });
-
   app.listen(5432, () => {
-    console.log("Servidor rodando na porta 3333");
+    console.log("Servidor rodando na porta 5432");
   });
