@@ -10,8 +10,6 @@ import auditorioRoutes from "./routes/auditorio.routes";
 import autorRoutes from "./routes/autor.routes";
 import leitorRoutes from "./routes/leitor.routes";
 
-import "reflect-metadata"
-
 const app = express();
 
 app.use(cors());
@@ -19,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/livros", livroRoutes);
-app.use("/auditorios", auditorioRoutes);
+app.use("/auditorium", auditorioRoutes);
 app.use("/autores", autorRoutes);
 app.use("/leitores", leitorRoutes);
 
@@ -33,5 +31,5 @@ AppDataSource.initialize()
   .catch(() => console.log("Erro ao conectar com o banco de dados"));
 
   app.listen(5432, () => {
-    console.log("Servidor rodando na porta 5432");
+    console.log("Servidor rodando na porgggggta 5432");
   });
