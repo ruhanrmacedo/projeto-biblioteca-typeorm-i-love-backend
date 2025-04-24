@@ -60,8 +60,8 @@ https://drive.google.com/file/d/1Ts6Co-b6vA8kDQlXTy96xs5nAis-kZWM/view
 |-----------------------|-----------------------------------------------|-------------------------------------|
 | Skipper               | [@p-skipper](https://github.com/p-skipper)    | Funcionalidades específicas, CRUD autor                 |
 | Andressa Medeiros     | [@andressasmedeiros](https://github.com/andressasmedeiros)| Funcionalidades específicas, CRUD auditório         |
-| Ruhan Roberto Macedo  | [@ruhanrmacedo](https://github.com/ruhanrmacedo) | Middleware de erro, CRUD leitores   |
-| Carla Cristina        | [@CarlaCristina-s](https://github.com/CarlaCristina-s)   | Funcionalidades específicas, CRUD livros         |
+| Ruhan Roberto Macedo  | [@ruhanrmacedo](https://github.com/ruhanrmacedo) | Middleware de erro, CRUD leitor |
+| Carla Cristina        | [@CarlaCristina-s](https://github.com/CarlaCristina-s)   | Funcionalidades específicas, CRUD livro        |
 
 ---
 
