@@ -17,7 +17,7 @@ Sistema de gerenciamento de biblioteca desenvolvido com **TypeScript, Node.js, T
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/projeto-biblioteca-typeorm-i-love-backend.git
+git clone git@github.com:ruhanrmacedo/projeto-biblioteca-typeorm-i-love-backend.git
 cd projeto-biblioteca-typeorm-i-love-backend
 ```
 
