@@ -50,10 +50,6 @@ npm run typeorm migration:run
 npm run dev
 ```
 
-## 🎥 Apresentação em vídeo
-
-https://drive.google.com/file/d/1Ts6Co-b6vA8kDQlXTy96xs5nAis-kZWM/view
-
 ## 👥 Integrantes do grupo
 
 | Nome                  | GitHub                                         | Responsável por                     |
